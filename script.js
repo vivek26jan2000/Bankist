@@ -211,24 +211,3 @@ btnClose.addEventListener('click', function (e) {
 });
 
 console.log(accounts);
-/////////////////////////////////////////////////
-
-// trying to reload a page or alternate logout...!
-
-// const logoEl = document.querySelector('.logo');
-// logoEl.addEventListener('click', function () {
-//   // location.reload(true);
-//   location.assign('https://www.google.com/');
-// });
-
-// calculate the max value in a array movements of each account...!
-
-// const max = currentAccount.movements.reduce(
-//   (acc, mov) => {
-//     if (acc > mov) return acc;
-//     else return mov;
-//   },
-
-//   currentAccount.movements[0]
-// );
-// console.log(max);
